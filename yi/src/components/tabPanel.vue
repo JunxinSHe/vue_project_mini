@@ -28,17 +28,17 @@ export default {
     return {
       cur: 0,
       datas: [
-        {title: '公告栏', data: [
-          {id: 2, title: '一点车关于封禁通知（4月13日-4月20日）', isNew: true, href: 'http://www.bing.com', time: 1544537222},
-          {id: 4, title: '一点车关于封禁通知（4月13日-4月21日）', isNew: false, href: 'http://www.bing.com', time: 1544537002},
-          {id: 8, title: '一点车关于封禁通知（4月13日-4月23日）', isNew: false, href: 'http://www.bing.com', time: 1543537222},
-          {id: 15, title: '一点车关于封禁通知（4月13日-4月20日）', isNew: false, href: 'http://www.bing.com', time: 1544536222},
+        {title: 'News', data: [
+          {id: 2, title: 'This is a test block', isNew: true, href: 'http://www.bing.com', time: 1544537222},
+          {id: 4, title: 'This is a test block', isNew: false, href: 'http://www.bing.com', time: 1544537002},
+          {id: 8, title: 'This is a test block', isNew: false, href: 'http://www.bing.com', time: 1543537222},
+          {id: 15, title: 'This is a test block', isNew: false, href: 'http://www.bing.com', time: 1544536222},
         ]},
-        {title: '一点车资讯', data: [
-          {id: 2, title: 'asdfadfgfghfgh', isNew: true, href: 'http://www.bing.com', time: 1544537222},
-          {id: 4, title: 'ewyrthdfh-4月20日）', isNew: true, href: 'http://www.bing.com', time: 1544537222},
-          {id: 8, title: 'rthdfhdf-4月20日）', isNew: false, href: 'http://www.bing.com', time: 1544537222},
-          {id: 15, title: 'fghdfghdf-4月20日）', isNew: false, href: 'http://www.bing.com', time: 1544537222},
+        {title: 'Other News', data: [
+          {id: 2, title: 'This is a test block', isNew: true, href: 'http://www.bing.com', time: 1544537222},
+          {id: 4, title: 'This is a test block', isNew: true, href: 'http://www.bing.com', time: 1544537222},
+          {id: 8, title: 'This is a test block', isNew: false, href: 'http://www.bing.com', time: 1544537222},
+          {id: 15, title: 'This is a test block', isNew: false, href: 'http://www.bing.com', time: 1544537222},
         ]}
       ]
     }

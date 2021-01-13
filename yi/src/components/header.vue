@@ -16,15 +16,15 @@
                     </div>
                     <div class="ydc-user-info">
                         <div class="ydc-user-info-name">
-                            <a href="javascript:;">一点车</a>
+                            <a href="javascript:;">Norris</a>
                         </div>
                         <div class="ydc-user-info-func ydc-flex">
-                            <span class="ydc-tag">账号审核中</span>
+                            <span class="ydc-tag">Account validating</span>
                             <span class="ydc-mal">
                                 <i class="ydc-icon ydc-icon-mail fl"></i>
                                 <em>12</em>
                             </span>
-                            <a href="javascript:;">退出</a>
+                            <a href="javascript:;">Exit</a>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="ydc-footer">
     <div>
-      <p>©2018 一点车版权所有About 公司简介  联系方法  招聘信息  客户服务  隐私政策  广告服务  网站地图  意见反馈  不良信息举报</p>
+      <p>©Norris 2020</p>
     </div>
   </div>
 </template>

@@ -1,23 +1,28 @@
 <template>
   <div>
-    <Header/>
-    <section>
-      <div class="ydc-content-slide ydc-body">
-        <div class="ydc-flex">
-          <!-- left begin -->
-          <div class="ydc-column ydc-column-2">
-            <Menu/>
+    <div v-if="$route.name=='login' || $route.name=='reg'">
+      <router-view/>
+    </div>
+    <div v-if="$route.name!='login' && $route.name!='reg'">
+      <Header/>
+      <section>
+        <div class="ydc-content-slide ydc-body">
+          <div class="ydc-flex">
+            <!-- left begin -->
+            <div class="ydc-column ydc-column-2">
+              <Menu/>
+            </div>
+            <!-- left end -->
+            <!-- right begin -->
+            <div class="ydc-column ydc-column-8">
+              <router-view/>
+            </div>
+            <!-- right end -->
           </div>
-          <!-- left end -->
-          <!-- right begin -->
-          <div class="ydc-column ydc-column-8">
-            <router-view/>
-          </div>
-          <!-- right end -->
         </div>
-      </div>
-      <Footer/>
-    </section>
+        <Footer/>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -28,7 +33,12 @@ import Footer from '@/components/footer';
 
 export default {
   name: 'App',
-  components: { Header, Menu, Footer }
+  components: { Header, Menu, Footer },
+  created(){
+    if(!localStorage.token){
+      this.$router.push('/login');
+    }
+  }
 }
 </script>
 

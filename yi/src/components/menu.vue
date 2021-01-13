@@ -30,24 +30,24 @@ export default {
   data(){
     return {
       menus: [
-        {type: 'link', to: { name: 'index', params: {} }, icon: 'ydc-icon-home', title: '首页'},
-        {type: 'link', to: { name: 'release', params: {} }, icon: 'ydc-icon-find', title: '发布'},
-        {type: 'sub', icon: 'ydc-icon-file', title: '管理', children: [
-          {to: {name: 'xxx'}, title: '内容管理'},
-          {to: {name: 'xxx'}, title: '内容同步'},
-          {to: {name: 'xxx'}, title: '素材中心'},
+        {type: 'link', to: { name: 'index', params: {} }, icon: 'ydc-icon-home', title: 'Home'},
+        {type: 'link', to: { name: 'release', params: {} }, icon: 'ydc-icon-find', title: 'Release'},
+        {type: 'sub', icon: 'ydc-icon-file', title: 'Manage', children: [
+          {to: {name: 'xxx'}, title: 'Content Management'},
+          {to: {name: 'xxx'}, title: 'Content Edit'},
+          {to: {name: 'xxx'}, title: 'Material Content'},
         ]},
-        {type: 'sub', icon: 'ydc-icon-record', title: '数据', children: [
-          {to: {name: 'xxx'}, title: '订阅数据'},
-          {to: {name: 'xxx'}, title: '内容数据'},
-          {to: {name: 'xxx'}, title: '指数星级'},
+        {type: 'sub', icon: 'ydc-icon-record', title: 'Data', children: [
+          {to: {name: 'xxx'}, title: 'Subscription Data'},
+          {to: {name: 'xxx'}, title: 'Content Data'},
+          {to: {name: 'xxx'}, title: 'Index Stars'},
         ]},
-        {type: 'sub', icon: 'ydc-icon-set', title: '设置', children: [
-          {to: {name: 'xxx'}, title: '账号信息'},
-          {to: {name: 'xxx'}, title: '账号状态'},
+        {type: 'sub', icon: 'ydc-icon-set', title: 'Setting', children: [
+          {to: {name: 'xxx'}, title: 'Account Info'},
+          {to: {name: 'xxx'}, title: 'Account Status'},
         ]},
-        {type: 'sub', icon: 'ydc-icon-customer', title: '客服', children: [
-          {to: {name: 'xxx'}, title: '在线咨询'},
+        {type: 'sub', icon: 'ydc-icon-customer', title: 'Customer', children: [
+          {to: {name: 'xxx'}, title: 'Online Consultant'},
         ]},
       ]
     };

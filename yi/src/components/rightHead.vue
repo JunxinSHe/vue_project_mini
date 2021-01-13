@@ -3,32 +3,32 @@
     <div class="ydc-right-head-info">
       <dl>
         <a href="#">
-          <dt>总订阅</dt>
+          <dt>Total Subscription</dt>
           <dd>14</dd>
         </a>
       </dl>
       <dl>
         <a href="#">
-          <dt>总阅读</dt>
+          <dt>Total View</dt>
           <dd>224</dd>
         </a>
       </dl>
       <dl>
         <a href="#">
-          <dt>昨日阅读</dt>
+          <dt>Last View</dt>
           <dd>14</dd>
         </a>
       </dl>
       <dl>
         <a href="#">
-          <dt>总数据指数</dt>
+          <dt>Total Index</dt>
           <dd>158</dd>
         </a>
       </dl>
     </div>
     <button class="btn ydc-ne-carousel" @click="$router.push({name: 'release', params: {}})">
       <i class="ydc-icon-shu"></i>
-      <span>发布</span>
+      <span>Release</span>
     </button>
   </div>
 </template>
